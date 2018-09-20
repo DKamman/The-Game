@@ -1,9 +1,19 @@
 var failCounter = 0;
 
-if (prompt("Who started the MCU?") === "Iron Man") {
-	if (prompt("Who plays the character of blackwidow?") === "Scarlet Johanson") {
+if (failCounter == 3) {
+	document.write("GAME OVER, you made too many mistakes!")
+}
 
-	}
-}else if (false) {
-	document.write(++failCounter);
+if (prompt("Who started the MCU?") === "Iron Man") {
+	}else(document.write(++failCounter));{
+
+}if (prompt("Who plays the character of blackwidow?") === "Scarlet Johanson") {
+	}else(document.write(++failCounter));{
+
+}if (prompt("Who plays the character of blackwidow?") === "Scarlet Johanson") {
+	}else(document.write(++failCounter));{
+
+}if (prompt("Who plays the character of blackwidow?") === "Scarlet Johanson") {
+	}else(document.write(++failCounter));{
+
 }
