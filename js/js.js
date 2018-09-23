@@ -1,48 +1,42 @@
 //Deze var houd de hoeveelheid fout beantwoorde vragen bij
 var failCounter = 0;
 
-if (prompt("q") != "ja") {
+//Het probleem wat ik heb aangekaart op itslearning heb ik nog proberen op te lossen met de && operator zoals hieronder.
+//Maar het maakte geen verschil.
+if (prompt("Waar is Captain America zijn schild van gemaakt?") != "Vibranium" && "vibranium") {
 	addFailure();
 }
-if (prompt("q2") != "ja") {
+if (prompt("Wat is de naam van de tweede Avengers film?") != "Age of Ultron" || "age of ultron" || "Age Of Ultron") {
 	addFailure();
 }
-if (prompt("q4") != "ja") {
+if (prompt("Wat is de superhelden naam van Sam Wilson?") != "Falcon" || "The Falcon" || "the falcon" || "falcon") {
 	addFailure();
 }
-if (prompt("q5") != "ja") {
+if (prompt("Hoe heet Iron Man zijn vriendin?") != "Virgina Potts" || "Pepper" || "pepper" || "Pepper Potts" || "pepper potts" || "virginia pepper potts") {
 	addFailure();
 }
-if (prompt("q6") != "ja") {
+if (prompt("Wat is de groet van Hydra?") != "Hail Hydra" || "hail hydra" || "hail Hydra") {
 	addFailure();
 }
-if (prompt("q7") != "ja") {
+if (prompt("Wie zegt: 'I will bath the starways in your blood.'?") != "Thanos" || "thanos") {
 	addFailure();
 }
-if (prompt("q8") != "ja") {
+if (prompt("Wat is Spiderman zijn echte naam?") != "Peter Parker" || "peter parker" || "Peter parker" || "peter Parker") {
+	addFailure();
+} 
+if (prompt("Hoe heet de planeer waar Thor op gestrand is in Thor: Ragnarok?") != "Sakaar" || "sakaar") {
 	addFailure();
 }
-if (prompt("q9") != "ja") {
+if (prompt("Wat is The Winter Soldier zijn volledige, echte, naam?") != "James Buchanan Barns") {
 	addFailure();
 }
-if (prompt("q10") != "ja") {
+if (prompt("Welk ras is Thanos?") != "Titan" || "titan") {
 	addFailure();
 }
-if (prompt("q11") != "ja") {
+if (prompt("Wat is de voornaam van Star-Lord zijn moeder?") != "Meredith" || "meredith") {
 	addFailure();
 }
-if (prompt("q12") != "ja") {
-	addFailure();
-}
-if (prompt("q13") != "ja") {
-	addFailure();
-}
-if (prompt("q14") != "ja") {
-	addFailure();
-}
-if (prompt("q15") != "ja") {
-	addFailure();
-}
+
 
 //Deze function gaat elke keer het nummer van de failcounter na, na elk fout beantwoorde vraag. 
 //Waarbij als die gelijk is aan 3, ben je Game Over en breekt die zichzelf uit de function doormiddel van de throw error.
